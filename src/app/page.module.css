@@ -4,7 +4,7 @@
   justify-content: center; /* Centrar contenido */
   height: 100vh; /* Altura 100% de la ventana */
   font-weight: bold; /* Texto en negrita */
-  color: #ffffff; /* Color del texto en blanco */
+  color: #FFFFCC; /* Color del texto en blanco */
   text-shadow: 15px 15px #222; /* Efecto de sombra en el texto */
   font-size: 80px; /* Tamaño de fuente */
 }
@@ -15,7 +15,7 @@
   justify-content: center; /* Centrar contenido verticalmente */
 }
 .yellowText {
-  color: goldenrod; /* Color dorado */
+  color: #D2F7FF ; /* Color dorado */
 }
 
 .infoSection{
@@ -27,7 +27,7 @@
 }
 
 .infoContainer{
-  color: white;
+  color: #FFFFCC;
   margin-left: 40px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .grayText{
-  color: gray;
+  color: #ffe4ec;
 }
 
 .image{
