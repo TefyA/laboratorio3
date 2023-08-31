@@ -15,10 +15,38 @@ export default function Home() {
               <span>I am</span>
             </span>
             <br />
-            <span>Josh Carlson</span>
+            <span>Tefy Paredes</span>
           </h1>
-        </div>
+       </div>
       </header>
+      <section className={styles.infoSection}>
+        <img
+          src="\img.jpg"
+          alt="Imagen"
+          className={styles.image}
+        />
+        <div className={styles.infoContainer}>
+          <span className={styles.title + " " + styles.yellowText}>Tefy</span>
+          <br />
+          <span className={styles.title}>Paredes</span>
+          <div className={styles.list}>
+            <ul>
+             <li>
+              <span className={styles.grayText}>Age: </span> 17
+             </li>
+             <li>
+              <span className={styles.grayText}>Nationality: </span> Guatemalan
+             </li>
+             <li>
+              <span className={styles.grayText}> Skill set: </span> Project Management and Financial Performance
+             </li>
+             <li>
+              <span className={styles.grayText}>Language: </span> English, Spanish
+             </li>
+            </ul>
+         </div>
+       </div>
+      </section>
     </main>
   );
 }
